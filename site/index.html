@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>GISTRE</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-		<link rel="icon" href="favicon.ico" />
-	</head>
-	<body>
-		<!-- <span>Not affiliated with anything.</span> -->
-		 <iframe width="560" height="315" src="stallman.mp4" frameborder="0" allowfullscreen></iframe>
-		<style type="text/css">
+    <head>
+        <meta charset="utf-8">
+        <title>GISTRE</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="icon" href="favicon.ico" />
+    </head>
+    <body>
+        <iframe width="560" height="315" src="stallman.mp4" frameborder="0" allowfullscreen></iframe>
+        <footer style="color: white;">
+            Website under <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3</a>,
+            do whatever you want : <a href="https://github.com/BastienGermond/gistre.fr">here !</a>
+        </footer>
+        <style type="text/css">
 body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-	padding: 0;
-	margin: 0;
-	width: 100vw;
-	height: 100vh;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
 
-	background-image: url(https://gistre.fr/Gistred.png);
-	background-repeat: repeat;
-	background-color: #333333;
+    background-image: url(https://gistre.fr/Gistred.png);
+    background-repeat: repeat;
+    background-color: #333333;
 }
 
 span {
-	color: white;
-	font-size: 5vw;
-	font-family: 'Poppins', sans-serif;
-	transform: rotate(-20deg);
+    color: white;
+    font-size: 5vw;
+    font-family: 'Poppins', sans-serif;
+    transform: rotate(-20deg);
 }
-		</style>
-	</body>
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer>a {
+    color: yellow;
+    text-decoration: underline;
+}
+        </style>
+    </body>
 </html>
